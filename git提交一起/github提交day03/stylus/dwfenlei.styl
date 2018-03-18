@@ -1,0 +1,494 @@
+body,html
+  min-width 1120px
+  height 100%
+#wrap
+  height 100%
+  width 100%
+  background #fff
+
+  #head
+    width 100%
+    height 72px
+    background #fff
+    position relative
+    border-bottom 2px solid #E5E5E5
+    &.slodDown
+      top 0
+      transform translateY(0)
+      animation animt 1s
+      @keyframes animt {
+        0%{
+          transform translateY(-100%)
+        }
+        100%{
+            transform translateY(0)
+        }
+
+
+
+      }
+
+
+    .headContainer
+      height 100%
+      width 85%
+      padding 0 15px
+      margin 0 74.5px
+      background #fff
+      display flex
+      justify-content space-between
+      align-items center
+      .navbar-right
+        height 100%
+        width 70%
+        width 1170px
+        display flex
+        justify-content space-between
+        align-items center
+        a
+          color #000
+          font-weight bold
+        .navbar-right-left
+          margin-left 50px
+          .qh:hover
+            color #EA4942
+          i
+            color #EA4942
+
+        .navbar-right-right
+          height 100%
+          width 70%
+          display flex
+          justify-content space-around
+          align-items center
+          .on
+            color #E94840
+          a:hover
+            color #E94840
+          .dl
+            background #E94840
+            border-radius 10%
+            color #FBFFFF
+            padding 5px
+            &:hover
+              color #FBFFFF
+
+
+
+
+  .article
+    width 100%
+    .artHeadLayOut
+      width 85%
+      height 120px
+      margin 10px auto 0
+      display flex
+      justify-content space-between
+      align-items center
+      .artHeadLeft
+        width 70%
+        height 120px
+        margin 10px 0 0 0px
+        line-height 120px
+        font-size 14px
+        .yunjz
+          font-size 36px
+          font-weight 700
+          color #333
+          margin-right 15px
+        .yingye
+          color #929292
+          b
+            color #121212
+        .yuyue
+          margin-left 10px
+          color #929293
+          b
+            color #e84b47
+
+      .artHeadRight
+        width:30%
+        height 120px
+        margin-top 10px
+        display flex
+        justify-content space-between
+        align-items center
+        .success
+          flex 1
+          height 40%
+          display flex
+          justify-content space-around
+          align-items center
+          flex-direction column
+        .orders
+          flex 1
+          display flex
+          justify-content space-around
+          align-items center
+          div
+            display flex
+            justify-content center
+            align-items center
+            flex-direction column
+            span
+              margin 4px
+          >span
+            color #C6C6C6
+
+        .Praise
+          flex 1
+          display flex
+          justify-content space-around
+          align-items center
+          div
+            display flex
+            justify-content center
+            align-items center
+            flex-direction column
+            span
+              margin 4px
+          >span
+            color #C6C6C6
+        .num
+          color #e84b47
+
+
+
+    .nav
+      width 100%
+      height 40px
+      background #323434
+      .navLayOut
+        width 85%
+        height 40px
+        margin 0 auto
+
+        a
+          display inline-block
+          width 140px
+          height 40px
+          text-align center
+          line-height 40px
+          color #fff
+          font-size 15px
+          &:hover
+            color #e84b47
+            background #fff
+            font-size 17px
+        .on
+          background #424242
+
+
+    .articleLayOut
+      width 90%
+      height 100%
+      margin 0 auto
+      margin-bottom 50px
+      margin-top 22px
+      display flex
+      .articleLeft
+        width 80%
+        height 100%
+        >h2
+          width 100%
+          line-height 60px
+          border-bottom 1px solid #e5e5e5
+          margin-left 25px
+          >span
+            margin-left 10px
+
+          a
+            width 30px
+            color #111
+            padding-bottom 15px
+            border-bottom 4px solid #fb474f
+        .artLTop
+          width 100%
+          height 200px
+          border-bottom 1px solid #e5e5e5
+          a
+            display flex
+            width 100%
+            height 100%
+
+            img
+              width 150px
+              height 150px
+              margin 25px
+              border 1px solid #e5e5e5
+              display block
+            .spm
+              width 90%
+              height 100%
+              display flex
+              .spmInner
+                width 80%
+                height 150px
+                margin 25px 0
+                display flex
+                align-items flex-start
+                justify-content space-around
+                flex-direction column
+                .spm1
+                  font-size 18px
+                  color #1d1515
+
+                .spm2
+                  width 50%
+                  height 35%
+                  white-space nowrap
+                  font-size 14px
+                .spm3
+                  font-size 14px
+                  i
+                    color #fc545e
+                    font-style normal
+                    margin-right 20px
+                    b
+                      font-size 30px
+                      font-weight bold
+
+              .spmSpan2
+                width 20%
+                height 150px
+                text-align center
+                display flex
+                align-items flex-end
+                margin 25px 0
+
+
+
+        .kong
+          width 100%
+          height 70px
+          background #F8F8F8
+
+        .company
+          height 40px
+          line-height 40px
+          font-size 18px
+          margin 10px 25px
+          a
+            color #333
+            &:hover
+              color #fb474f
+          img
+            vertical-align middle
+            margin-left 10px
+
+
+
+        .profile
+          line-height 28px
+          margin 10px 25px 25px
+          font-size 16px
+
+        .kong1
+          width 100%
+          border-top 10px solid #f8f8f8
+        .commentDiv
+          width 100%
+          .comment1
+            width 96%
+            height 150px
+
+            border-bottom 1px solid #e5e5e5
+            margin 0 3%
+            padding-top 20px
+            display flex
+            >img
+              width 40px
+              height 40px
+              border-radius 6px
+              vertical-align top
+            a
+              color #333
+              width 100%
+              height 100%
+              display flex
+              flex-direction column
+              justify-content space-around
+              align-items center
+              margin-left 20px
+
+              .commentInner
+                width 100%
+                height 100%
+                display flex
+                flex-direction column
+                align-items flex-start
+                justify-content space-around
+                p
+                  height 20%
+                .commentp2
+                  img
+                    width 10px
+                    height 10px
+                    vertical-align middle
+                .commentp4
+                  color #898989
+                  height 40px
+                  font-size 14px
+                  img
+                    width 10px
+                    vertical-align middle
+        .btnNav
+          width 100%
+          height 152px
+          line-height 152px
+          text-align center
+          display flex
+          justify-content center
+          align-items center
+          >a
+            width 80px
+            height 30px
+            line-height 30px
+            border-radius 0
+            font-size 14px
+            color #929292
+            margin 50px 10px
+            border 1px solid #C6C6C6
+          .btnContain
+            display flex
+            justify-content space-around
+            align-items center
+            width 60%
+            a
+              display block
+              height 30px
+              width 30px
+              border 1px solid #C6C6C6
+              text-align center
+              line-height 30px
+              &.on
+                background  #fe454a
+                color #fff
+
+
+
+      .articleRight
+        width 20%
+        height 100%
+
+        .saoma1
+          width 100%
+          height 290px
+          background url("../imgs/fuwushang2_07.jpg") no-repeat center
+          img
+            margin 55px 0 0 55px
+            width 130px
+            vertical-align middle
+        .saoma2
+          width 100%
+          height 290px
+          background url("../imgs/fuwushang2_10.jpg") no-repeat center
+          margin-top 10px
+          img
+            margin 55px 0 0 55px
+            width 130px
+            vertical-align middle
+
+
+
+
+
+
+  #foot
+    width 100%
+    background #fff
+    padding-top 60px
+    .footContainer
+      width 85%
+      height 100%
+      margin 0 auto
+      h2
+        margin 20px auto 10px
+        font-size 30px
+        font-weight bold
+        font-family "微软雅黑"
+        text-align center
+
+        span
+          font-size 30px
+          color #fb474f
+          font-family "微软雅黑"
+          font-weight bold
+      p
+        font-size 22px
+        color #3d3838
+        text-align center
+      .footDiv1
+        text-align center
+        padding-top 20px
+        height 66px
+        font-size 18px
+        span
+          color #1d1515
+          vertical-align top
+          margin-right 10px
+          img
+            margin-right 10px
+      .footDiv2
+        width 100%
+        height 120px
+        display flex
+        justify-content center
+        align-items flex-start
+
+        .footDivrm
+          display flex
+          font-size 18px
+          font-weight 700
+          width 10%
+          text-align center
+          margin-top 10px
+
+        .footDiv2In
+          height 93px
+          width 90%
+          display flex
+          align-items center
+          justify-content center
+          flex-direction column
+          .footDiv2In1
+            width 100%
+            flex 1
+            display flex
+            justify-content space-around
+            align-items center
+            span
+              width 8%
+              display flex
+              align-items center
+              justify-content center
+          .footDiv2In2
+            width 100%
+            flex 1
+            display flex
+            justify-content space-around
+            align-items center
+            span
+              width 8%
+              display flex
+              align-items center
+              justify-content center
+
+          .footDiv2In3
+            width 100%
+            flex 1
+            display flex
+            justify-content space-around
+            align-items center
+            span
+              width 8%
+              display flex
+              align-items center
+              justify-content center
+      .footBottomp
+        width 100%
+        color #898989
+        height 40px
+        line-height 40px
+        text-align left
+        font-size 14px
