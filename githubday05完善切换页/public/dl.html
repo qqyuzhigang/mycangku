@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+  <title>到位-商家管理后台</title>
+  <link rel="shortcut icon" href="./imgs/favicon.png">
+  <link rel="stylesheet" href="http:////at.alicdn.com/t/font_590084_d7ljc32nuyirizfr.css">
+  <!-- Bootstrap -->
+  <!-- <link href="css/amazeui.min.css?rev=20170331" rel="stylesheet" >-->
+  <link href="./css/font-awesome.min.css" rel="stylesheet">
+  <link href="./css/layui.css" rel="stylesheet">
+  <link href="./css/daowayCSS.min.css?rev=20180312" rel="stylesheet">
+  <!-- <link href="css/amazeui.cropper.css?rev=2018" rel="stylesheet" >
+   <link href="css/custom_up_img.css?rev=20170331" rel="stylesheet" >
+   <link href="css/bootstrap/bootstrap.min.css?rev=2017122" rel="stylesheet">
+   <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link href="css/angular-chart.css" rel="stylesheet">
+   <link href="css/bootstrap-dialog.min.css" rel="stylesheet">
+   <link href="css/ui-select/select.min.css" rel="stylesheet">
+   <link href="css/select2/select2.css" rel="stylesheet">
+   <link href="css/select2/select2-bootstrap.css" rel="stylesheet">
+   <link href="css/ui-notification/angular-ui-notification.min.css" rel="stylesheet">
+   <link href="css/bootstrap-switch/bootstrap-switch.min.css" rel="stylesheet">
+   <link href="css/daoway3.min.css" rel="stylesheet">
+   <link href="css/appointment.css?rev=20170123" rel="stylesheet">
+   <link href="layui/css/layui.css" rel="stylesheet" >
+   <link href="css/daoway-style.css?rev=20180111" rel="stylesheet">-->
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/html5shiv.min.js"></script>
+  <script type="text/javascript" src="js/respond.min.js"></script>
+  <![endif]-->
+
+
+  <!-- angularjs-->
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script src="//hm.baidu.com/hm.js?8438b8aadeff1af85751fc271f9abf96"></script>
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/cropper/cropper.min.js"></script>
+  <!--<script type="text/javascript" src="js/cropper/amazeui.min.js"></script>-->
+  <script type="text/javascript" src="js/bootstrap-switch/bootstrap-switch.min.js"></script>
+  <script type="text/javascript" src="js/daowayd.min.js"></script>
+  <script type="text/javascript" src="js/daowaychart/daoway3.min.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="js/angular-cookies.min.js"></script>
+  <script type="text/javascript" src="js/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="js/ng-file-upload-all.min.js"></script><style>.ngf-hide{display:none !important}</style>
+  <script type="text/javascript" src="js/ui-bootstrap-tpls-0.13.2.min.js"></script>
+  <script type="text/javascript" src="js/Chart.min.js"></script>
+  <script type="text/javascript" src="js/angular-locale_zh-cn.js"></script>
+  <script type="text/javascript" src="js/angular-chart.min.js"></script>
+  <script type="text/javascript" src="js/ui-sortable/sortable.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-dialog.min.js"></script>
+  <script type="text/javascript" src="js/angular-auto-validate/dist/jcs-auto-validate.js"></script>
+  <script type="text/javascript" src="js/ui-event/event.min.js"></script>
+  <script type="text/javascript" src="js/ui-map-baidu/ui-map.js"></script>
+  <script type="text/javascript" src="js/ui-select/select.min.js"></script>
+  <script type="text/javascript" src="js/tify/tify.min.js"></script>
+  <script type="text/javascript" src="js/ui-notification/angular-ui-notification.min.js"></script>
+  <script type="text/javascript" src="js/angular-bootstrap-switch/angular-bootstrap-switch.min.js"></script>
+  <script type="text/javascript" src="js/angular-paging/paging.js?rev=20180125"></script>
+  <script type="text/javascript" src="js/daowaychart/daowaychart.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+
+  <script type="text/javascript" src="layui/webim.config.js"></script>
+  <script type="text/javascript" src="layui/strophe-1.2.8.min.js"></script>
+  <script type="text/javascript" src="layui/websdk-1.4.7.min.js"></script>
+  <!-- <script>
+       if (WebIM.config.isWebRTC) {
+           document.write("<script src='js/adapter.js'><\/script>");
+           document.write("<script src='js/webrtc-1.4.7.js'><\/script>");
+       }
+   </script>-->
+  <!-- <script type="text/javascript" src="layui/webim.js"></script>-->
+  <script type="text/javascript" src="layui/layui.js?rev=20180125"></script>
+  <!-- angularjsend-->
+
+
+  <!-- 百度地图-->
+  <script src="js/angularjs-baidu-maps.min.js"></script>
+  <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GM5rbltEloTFNRmH8IbQLSTT"></script>-->
+
+
+  <!--加载鼠标绘制工具-->
+  <!--    <script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+      <link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />-->
+  <!--加载检索信息窗口-->
+  <!--<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+  <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />-->
+  <!--
+      &lt;!&ndash;城市范围百度API&ndash;&gt;
+      <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" type="text/css" />
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5E5EE28a7615536d1ffe2ce2a3667859"></script>
+      &lt;!&ndash;加载鼠标绘制工具&ndash;&gt;
+      <script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+      <link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+      &lt;!&ndash;加载检索信息窗口&ndash;&gt;
+      <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+      <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
+  -->
+
+  <!--controller-->
+  <script type="text/javascript" src="controllers/js/merge.mini.js?rev=2018"></script>
+  <!-- <script type="text/javascript" src="controllers/app.js?rev=201801"></script>
+   <script type="text/javascript" src="controllers/alertmanagement.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/appointment.js?rev=20170208"></script>
+   <script type="text/javascript" src="controllers/barcode.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/comment.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/commodity.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/customermanagement.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/diyindex.js?rev=20170208"></script>
+   <script type="text/javascript" src="controllers/easemob.js?rev=20170706"></script>
+   <script type="text/javascript" src="controllers/finstatistics.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/financialmanagement.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/header.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/income.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/invoice.js?rev=20170628"></script>
+   <script type="text/javascript" src="controllers/login.js?rev=201801"></script>
+   <script type="text/javascript" src="controllers/newVouchvers.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/order.js?rev=@@20180111"></script>
+   <script type="text/javascript" src="controllers/service.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/shop.js?rev=20171101"></script>
+   <script type="text/javascript" src="controllers/sidebar.js?rev=20171227"></script>
+   <script type="text/javascript" src="controllers/statistics.js?rev=20170328"></script>
+   <script type="text/javascript" src="controllers/supermarketset.js?rev=@@hash"></script>
+   <script type="text/javascript" src="controllers/user.js?rev=201801"></script>
+   <script type="text/javascript" src="controllers/technician.js?rev=2018"></script>
+   <script type="text/javascript" src="controllers/techLocationMap.js?rev=20171230"></script>
+   <script type="text/javascript" src="controllers/im.js?rev=2018"></script>-->
+  <!--controller结束-->
+  <!--directive-->
+  <!-- <script type="text/javascript" src="directive/loading.js?rev=201801"></script>-->
+  <!--directive结束-->
+
+  <!--<script type="text/javascript" src="service/dwService.js?1.0"></script>-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8438b8aadeff1af85751fc271f9abf96";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <script type="text/javascript" src="./js/ng-inspector.js"></script></head>
+<body>
+<!-- uiView:  -->
+<div ui-view="" id="uiView1" class="ng-scope">
+  <div class="container ng-scope">
+    <div class="login">
+      <div class="content">
+        <h2 style="background:url('./imgs/houtai-logo.png') center no-repeat;height:70px;background-size:290px;margin-top:0">到位商家后台</h2>
+        <div class="input-group">
+          <span class="input-group-addon icon-1"><i class="iconfont icon-icon"></i></span>
+          <input class="form-control ng-pristine ng-untouched ng-valid" id="username" type="text" ng-model="name" placeholder="输入昵称或手机号">
+
+        </div>
+        <form class="input2 ng-pristine ng-valid" name="forms">
+                <span id="box">
+                    <div class="input-group">
+                        <span class="input-group-addon icon-2"><i class="iconfont icon-suo"></i></span>
+                        <input class="form-control ng-pristine ng-untouched ng-valid" id="password" type="password" placeholder="输入密码" ng-model="password">
+                    </div>
+                </span>
+        </form>
+
+        <br>
+        <!--<div class="checkbox">
+            <label>
+                <input type="checkbox" name="vehicle" value="Car">
+                <span>记住密码</span>
+            </label>
+
+        </div>-->
+      </div>
+      <div class="alert alert-danger alert-dismissible ng-binding ng-hide" role="alert" ng-show="loginError">
+        <button type="button" class="close" ng-click="cleanErrorMsg()">
+          <span aria-hidden="true">×</span>
+        </button>
+
+      </div>
+      <!--注册登陆开始-->
+      <div class="zhuce">
+        <!--<a class="btn btn-warning btn-lg" ng-href="#/regist">注册</a>-->
+        <button class="btn btn-primary btn-lg btn-block" ng-enter="login()" ng-click="login()">登录</button>
+      </div>
+      <div style="padding: 20px;">
+        <a class="pull-left" ng-href="#/forgetpwd" href="#/forgetpwd">忘记密码</a>
+        <!--<a class="pull-right" ng-href="#/regist">注册</a>-->
+        <a class="pull-right" href="http://www.daoway.com/information" target="_blank">注册</a>
+      </div>
+      <!--注册登陆结束-->
+    </div>
+
+    <!--第三方登陆开始-->
+    <!--<div class="three">-->
+    <!--<ul>-->
+    <!--<li><span>第三方登陆</span></li>-->
+    <!--<li><img src="img/2.png" onmouseover="this.src='img/1.png';" onmouseout="this.src='img/2.png';"><br/></li>-->
+    <!--<li><a target="_blank" href="https://open.weixin.qq.com/connect/qrconnect?appid=wx88c2a40540bb19d3&redirect_uri=daoway.cn&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect"><img src="img/4.png" onmouseover="this.src='img/3.png';" onmouseout="this.src='img/4.png';"></a><br/></li>-->
+    <!--<li><img src="img/5.png" onmouseover="this.src='img/6.png';" onmouseout="this.src='img/5.png';"><br/></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--第三方登陆结束-->
+
+    <!--内容结束-->
+  </div>
+ </div>
+<!--<div ui-view="" id="uiView2" class="ng-scope" >
+  <div class="container ng-scope">
+    <div class="login">
+      <div class="content">
+        <h2>到位商家后台</h2>
+        <div class="input-group">
+          <span class="input-group-addon icon-1"><i class="fa fa-user"></i></span>
+          <input class="form-control ng-pristine ng-untouched ng-valid" id="username" type="text" ng-model="name" placeholder="输入昵称或手机号">
+
+        </div>
+        <form class="input2 ng-pristine ng-valid" name="forms">
+                <span id="box">
+                    <div class="input-group">
+                        <span class="input-group-addon icon-2"><i class="fa fa-lock"></i></span>
+                        <input class="form-control ng-pristine ng-untouched ng-valid" id="password" type="password" placeholder="输入密码" ng-model="password">
+                    </div>
+                </span>
+        </form>
+
+        <br>
+        &lt;!&ndash;<div class="checkbox">
+            <label>
+                <input type="checkbox" name="vehicle" value="Car">
+                <span>记住密码</span>
+            </label>
+
+        </div>&ndash;&gt;
+      </div>
+      <div class="alert alert-danger alert-dismissible ng-binding ng-hide" role="alert" ng-show="loginError">
+        <button type="button" class="close" ng-click="cleanErrorMsg()">
+          <span aria-hidden="true">×</span>
+        </button>
+
+      </div>
+      &lt;!&ndash;注册登陆开始&ndash;&gt;
+      <div class="zhuce">
+        &lt;!&ndash;<a class="btn btn-warning btn-lg" ng-href="#/regist">注册</a>&ndash;&gt;
+        <button class="btn btn-primary btn-lg btn-block" ng-enter="login()" ng-click="login()">登录</button>
+      </div>
+      <div style="padding: 20px;">
+        <a class="pull-left" id="pulLeft" ng-href="#/forgetpwd" href="#/forgetpwd">忘记密码</a>
+        &lt;!&ndash;<a class="pull-right" ng-href="#/regist">注册</a>&ndash;&gt;
+        <a class="pull-right" href="http://www.daoway.com/information" target="_blank">注册</a>
+      </div>
+      &lt;!&ndash;注册登陆结束&ndash;&gt;
+    </div>
+    &lt;!&ndash;第三方登陆开始&ndash;&gt;
+    &lt;!&ndash;<div class="three">&ndash;&gt;
+    &lt;!&ndash;<ul>&ndash;&gt;
+    &lt;!&ndash;<li><span>第三方登陆</span></li>&ndash;&gt;
+    &lt;!&ndash;<li><img src="img/2.png" onmouseover="this.src='img/1.png';" onmouseout="this.src='img/2.png';"><br/></li>&ndash;&gt;
+    &lt;!&ndash;<li><a target="_blank" href="https://open.weixin.qq.com/connect/qrconnect?appid=wx88c2a40540bb19d3&redirect_uri=daoway.cn&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect"><img src="img/4.png" onmouseover="this.src='img/3.png';" onmouseout="this.src='img/4.png';"></a><br/></li>&ndash;&gt;
+    &lt;!&ndash;<li><img src="img/5.png" onmouseover="this.src='img/6.png';" onmouseout="this.src='img/5.png';"><br/></li>&ndash;&gt;
+    &lt;!&ndash;</ul>&ndash;&gt;
+    &lt;!&ndash;</div>&ndash;&gt;
+    &lt;!&ndash;第三方登陆结束&ndash;&gt;
+
+    &lt;!&ndash;内容结束&ndash;&gt;
+  </div>
+  <script class="ng-scope">
+
+    if(window.screen.width <600){
+      $(".login").css({
+        "max-width":document.body.clientWidth/2,
+        "margin-top":document.body.clientHeight/3
+      });
+    }
+
+
+  </script></div>-->
+  <script class="ng-scope">
+
+    if(window.screen.width <600){
+      $(".login").css({
+        "max-width":document.body.clientWidth/2,
+        "margin-top":document.body.clientHeight/3
+      });
+    }
+
+
+
+  </script></div>
+
+
+</body>
+</html>
