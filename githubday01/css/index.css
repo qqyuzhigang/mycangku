@@ -1,0 +1,208 @@
+body,
+html {
+  min-width: 1120px;
+  height: 2000px;
+}
+#wrap {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+#wrap #head {
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  position: relative;
+}
+#wrap #head .headContainer {
+  height: 100%;
+  width: 85%;
+  padding: 0 15px;
+  margin: 0 74.5px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap #head .headContainer .navbar-right {
+  height: 100%;
+  width: 70%;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap #head .headContainer .navbar-right a {
+  color: #000;
+  font-weight: bold;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-left {
+  margin-left: 50px;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-left .qh:hover {
+  color: #ea4942;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-left i {
+  color: #ea4942;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-right {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-right .on {
+  color: #e94840;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-right a:hover {
+  color: #e94840;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-right .dl {
+  background: #e94840;
+  border-radius: 10%;
+  color: #fbffff;
+  padding: 5px;
+}
+#wrap #head .headContainer .navbar-right .navbar-right-right .dl:hover {
+  color: #fbffff;
+}
+#wrap #banner {
+  width: 100%;
+  height: 420px;
+  background: #eeebe6;
+  position: relative;
+}
+#wrap #banner .fullBanner {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+#wrap #banner .fullBanner .bj {
+  width: 100%;
+  height: 100%;
+}
+#wrap #banner .fullBanner .bj ul {
+  width: 300%;
+  height: 100%;
+}
+#wrap #banner .fullBanner .bj ul li {
+  height: 100%;
+  width: 33.33%;
+  float: left;
+}
+#wrap #banner .fullBanner .bj ul .bjli1 {
+  background: url("../imgs/banner1.jpg") center center no-repeat;
+}
+#wrap #banner .fullBanner .bj ul .bjli2 {
+  background: url("../imgs/banner2.jpg") center center no-repeat;
+}
+#wrap #banner .fullBanner .bj ul .bjli3 {
+  background: url("../imgs/banner3.jpg") center center no-repeat;
+}
+#wrap #banner .fullBanner .hd {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+}
+#wrap #banner .fullBanner .hd ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  width: 100%;
+}
+#wrap #banner .fullBanner .hd ul li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #999;
+  margin: 0px 5px;
+}
+#wrap #banner .bannerContianer {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+#wrap #banner .bannerContianer .bannerNav {
+  width: 180px;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0px;
+  margin-right: 10%;
+  background: #757881;
+}
+#wrap #banner .bannerContianer .bannerNav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#wrap #banner .bannerContianer .bannerNav ul li {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #banner .bannerContianer .bannerNav ul li:hover img {
+  visibility: hidden;
+}
+#wrap #banner .bannerContianer .bannerNav ul li:hover ul {
+  display: block;
+}
+#wrap #banner .bannerContianer .bannerNav ul li >a {
+  width: 100%;
+  height: 100%;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #banner .bannerContianer .bannerNav ul li >a:hover {
+  background: #60646d;
+}
+#wrap #banner .bannerContianer .bannerNav ul li >a span {
+  color: #fff;
+  font-weight: bold;
+}
+#wrap #banner .bannerContianer .bannerNav ul li ul {
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  width: 160px;
+  height: 10%;
+  display: none;
+  background: #fff;
+}
+#wrap #banner .bannerContianer .bannerNav ul li ul li {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+#wrap #banner .bannerContianer .bannerNav ul li ul li a {
+  color: #000;
+  font-weight: bold;
+}
+#wrap #banner .bannerContianer .bannerNav ul li ul li a:hover {
+  color: #ea4942;
+  background: #fff;
+}
+#wrap #box1 {
+  width: 100%;
+}
+#wrap #box1 .box1Container {
+  width: 85%;
+  padding: 50px 0 0;
+}

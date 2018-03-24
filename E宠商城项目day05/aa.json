@@ -1,0 +1,1238 @@
+{
+  "msg": "",
+  "code": "succeed",
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "sys_time": 1521693562,
+  "hash": "",
+  "epet_site": "epet",
+  "is_dynamic": 0,
+  "menus": [
+    {
+      "menu_id": "1",
+      "menu_name": "首页",
+      "menu_param": "165",
+      "menu_font_color": "#459d36",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "1",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "367",
+      "menu_name": "狗狗主粮",
+      "menu_param": "123",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "372",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "408",
+      "menu_name": "服饰城",
+      "menu_param": "",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "https://wap.epet.com/clothmall/main.html?pet_type=dog",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "0",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "368",
+      "menu_name": "医疗保健",
+      "menu_param": "125",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "374",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "369",
+      "menu_name": "零食玩具",
+      "menu_param": "131",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "375",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "370",
+      "menu_name": "日用外出",
+      "menu_param": "134",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "0",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    },
+    {
+      "menu_id": "371",
+      "menu_name": "美容香波",
+      "menu_param": "140",
+      "menu_font_color": "#e73f85",
+      "menu_line_color": "#459d36",
+      "menu_icon": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "menu_target": "",
+      "menu_type": 0,
+      "menu_image": {
+        "image": "",
+        "img_size": "",
+        "selected_image": ""
+      },
+      "menu_shareid": "371",
+      "epetPageTag": {
+        "page_type": "",
+        "page_pam": "",
+        "big_type": "dog"
+      }
+    }
+  ],
+  "real_page_id": "165",
+  "datas": [
+    {
+      "index": "3191",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26895",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/13/77701d61fbaf23450a3b94c68a7dabe1.jpg@!water",
+          "img_size": "750x320",
+          "target": {}
+        },
+        {
+          "advid": "26833",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/15/09/c368185b59c7d1339f2c743db9543273.jpg@!water",
+          "img_size": "750x320",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDg5MA%3D%3D.html?tid=4890"
+          }
+        },
+        {
+          "advid": "27041",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/22/7cea29d0053bbe745b2ad7de19c28fa7.jpg@!water",
+          "img_size": "750x320",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epetht.com/m/mould/activity/ztMjczOA%3D%3D.html?tid=2738"
+          }
+        },
+        {
+          "advid": "27044",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/21/6a294428118ac5dda102eb85056e55d4.jpg@!water",
+          "img_size": "750x320",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/sNDk0Ng%3D%3D.html?tid=4946"
+          }
+        },
+        {
+          "advid": "27033",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/19/ac3524e2a6b9004f596cbe10bf4895fd.jpg@!water",
+          "img_size": "750x320",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDkzOA%3D%3D.html?tid=4938"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3216",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26899",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/15/f7a233da603cf8e8927e0270a0628775.jpg@!water",
+          "img_size": "750x541",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3192",
+      "is_show": 1,
+      "type": "3",
+      "is_dynamic": "0",
+      "type_name": "栏目菜单二",
+      "menu_column": 5,
+      "menus": [
+        {
+          "name": "E宠团（狗）",
+          "image": "https://img1.epetbar.com/2018-03/21/10/7deeb28eadf971a362f9dd64980542c3.jpg@!water",
+          "img_size": "142X181",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/group/v226/main.html?pettype=dog&pet_type=dog"
+          }
+        },
+        {
+          "name": "品牌特卖",
+          "image": "https://img1.epetbar.com/2018-03/12/17/36ce3471dd689ed7377d09b9986303c9.jpg@!water",
+          "img_size": "142X181",
+          "target": {
+            "mode": "web",
+            "param": "http://wap.epet.com/v2/brandsale.html?pet_type=dog"
+          }
+        },
+        {
+          "name": "E宠国际",
+          "image": "https://img1.epetbar.com/2018-03/12/17/5dc60db864d3123929f432e7757ceb96.jpg@!water",
+          "img_size": "142X181",
+          "target": {
+            "mode": "web",
+            "param": "http://wap.epetht.com/guide.html?pet_type=dog&fw=0&pet_type=dog"
+          }
+        },
+        {
+          "name": "潮品预售（狗）",
+          "image": "https://img1.epetbar.com/2018-03/12/17/a6cf6fd5d724bb125b40b17fba0cbe12.jpg@!water",
+          "img_size": "142X181",
+          "target": {
+            "mode": "web",
+            "param": "https://sale.epet.com/m/mould/fashion/main.html?pet_type=dog&pet_type=dog"
+          }
+        },
+        {
+          "name": "清仓特价",
+          "image": "https://img1.epetbar.com/2018-03/12/17/f8ea826966dcee6abccf2a9574b0e36e.jpg@!water",
+          "img_size": "142X181",
+          "target": {
+            "mode": "web",
+            "param": "http://wap.epet.com/activity/cleargoods.html?pet_type=dog"
+          }
+        },
+        {
+          "name": "新汪课堂",
+          "image": "https://img1.epetbar.com/2018-03/12/20/5a6991defe3616bb1208506f5f0d78da.jpg@!water",
+          "img_size": "142X179",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/main.html?menu_param=4&is_single=1&pet_type=dog"
+          }
+        },
+        {
+          "name": "萌爪联盟",
+          "image": "https://img1.epetbar.com/2018-03/12/17/b799562d3f7f8ca39769dc5fd1794a4a.jpg@!water",
+          "img_size": "142X179",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/union/trials/main.html?pet_type=dog"
+          }
+        },
+        {
+          "name": "潮品视频（狗）",
+          "image": "https://img1.epetbar.com/2018-03/12/17/420a7f62887b490aa7c627dc5364178d.jpg@!water",
+          "img_size": "142X179",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/main.html?menu_param=121&is_single=1&pet_type=dog"
+          }
+        },
+        {
+          "name": "萌宠说",
+          "image": "https://img1.epetbar.com/2018-03/12/17/dfa5a7598e3ee203c05f0f03fc182edc.jpg@!water",
+          "img_size": "142X179",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/article/video/List.html?do=KnowledgeVideo&pet_type=dog"
+          }
+        },
+        {
+          "name": "小剧场",
+          "image": "https://img1.epetbar.com/2018-03/12/17/038add951408054bafb01498e8d98635.jpg@!water",
+          "img_size": "142X179",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/article/video/List.html?do=AdorableVideo&pet_type=dog"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3193",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26910",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/a4ae9a27e725c61fc988f8bc50de44c4.jpg@!water",
+          "img_size": "750x336",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3194",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26911",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/aa5240853b081a779d1ac744c9263593.jpg@!water",
+          "img_size": "750x386",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/goods/226317-19738-z.html"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3195",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26912",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/4bed6cabef8ce125c6b940d9c21e077c.jpg@!water",
+          "img_size": "750x365",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/goods/224605-19738-z.html"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3196",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26913",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/05c43ee3cb7307e2938917629f8e8dd9.jpg@!water",
+          "img_size": "750x352",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3197",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26914",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/f775ba7f065206b099a26a3db46d199b.jpg@!water",
+          "img_size": "750x380",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/goods/232279-19731-z.html"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3198",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26915",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/5ab59b0d564a40d9a93b0ff2312d2e62.jpg@!water",
+          "img_size": "750x404",
+          "target": {
+            "mode": "web",
+            "param": "https://wap.epet.com/goods/221432-19734-z.html"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3199",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26916",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/e7dfb96269531f51f748cb5826444b50.jpg@!water",
+          "img_size": "750x277",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3200",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26917",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/b1e12155123bdd9753a6a21f25fdae58.jpg@!water",
+            "img_size": "187x188",
+            "target": {}
+          },
+          {
+            "advid": "26921",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/21/10/cccb436feb5fae1660539778cd8cb790.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/dNDkzNQ%3D%3D.html?tid=4935"
+            }
+          },
+          {
+            "advid": "26925",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/c9a16c93ad3dfdd63b3d4d84040cfb2c.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDMwOQ%3D%3D.html?tid=4309"
+            }
+          },
+          {
+            "advid": "26929",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/189f61e646fc9f978b5611891d61a7ca.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDg5NA%3D%3D.html?tid=4894"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26918",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/ff42bbd85e6982cabee4e86281a1ade2.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDg5Ng%3D%3D.html?tid=4896"
+            }
+          },
+          {
+            "advid": "26922",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/d383ffe8c8b7b998831c04b6f4e246f3.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDk0MA%3D%3D.html?tid=4940"
+            }
+          },
+          {
+            "advid": "26926",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/4f7f2f0ab3cff1d3a2be613bdce82435.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDY0MQ%3D%3D.html?tid=4641"
+            }
+          },
+          {
+            "advid": "26930",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/6f4ffb870dcdc73e6e9939f774008146.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDg5Mw%3D%3D.html?tid=4893"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26919",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/67536f5198855bc4cfde83a521970c81.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDkzNg%3D%3D.html?tid=4936"
+            }
+          },
+          {
+            "advid": "26923",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/003772d52d3ec8c9d307e65c288e5886.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDk0MA%3D%3D.html?tid=4940"
+            }
+          },
+          {
+            "advid": "26927",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/fd82100991b88e103adbc4a2b93d366b.jpg@!water",
+            "img_size": "187x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDY0MQ%3D%3D.html?tid=4641"
+            }
+          },
+          {
+            "advid": "26931",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/41abe98875e0848e6722bb9b6fcf0d68.jpg@!water",
+            "img_size": "187x188",
+            "target": {}
+          }
+        ],
+        [
+          {
+            "advid": "26920",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/05e0af09bc5b73ae7da8e287add10827.jpg@!water",
+            "img_size": "189x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDYxNw%3D%3D.html?tid=4617"
+            }
+          },
+          {
+            "advid": "26924",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/5c317467d89dcb78595eb7e9730958bc.jpg@!water",
+            "img_size": "189x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDM0Mw%3D%3D.html?tid=4343"
+            }
+          },
+          {
+            "advid": "26928",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/d0950993d80efa8ac7008e852bd6422a.jpg@!water",
+            "img_size": "189x188",
+            "target": {
+              "mode": "web",
+              "param": "http://sale.epet.com/m/mould/activity/ztNDkzMQ%3D%3D.html?tid=4931"
+            }
+          },
+          {
+            "advid": "26932",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/45eba24bc820043864b7326d80a235bd.jpg@!water",
+            "img_size": "189x188",
+            "target": {}
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3253",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "27054",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/21/09/5ce41c7730f87f7c86163d4413f7ed86.jpg@!water",
+          "img_size": "750x492",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3250",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "27030",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/19/a5c9f132f39d76d5d850ccf8a5062dab.jpg@!water",
+          "img_size": "750x180",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epetht.com/m/mould/activity/ztMjczOA%3D%3D.html?tid=2738"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3201",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26933",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/2b07e28a89c320f4d2cd6efbe3d416f6.jpg@!water",
+          "img_size": "750x166",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDkzNw%3D%3D.html?tid=4937"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3203",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26934",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/21/17/558a8a332af527c82cf40cf3b7c8e33c.jpg@!water",
+            "img_size": "375x660",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/232039-19119-z.html"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26936",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/34570f83d5cfa56578d233faec92a408.jpg@!water",
+            "img_size": "375x660",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/230579-19731-z.html"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3204",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26937",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/8f084221fb431ed529ede806973d9187.jpg@!water",
+          "img_size": "750x100",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDk0Nw%3D%3D.html?tid=4947"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3205",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26938",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/56443594a0e1caf588d7ac8b227e21b1.jpg@!water",
+            "img_size": "375x660",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/233967-19734-z.html"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26939",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/ccfde25d5f4794c4c40b25a7287382cf.jpg@!water",
+            "img_size": "375x660",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/233236-19734-z.html"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3206",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26941",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/ac461067567c12307f3d2eeb3c2bd682.jpg@!water",
+          "img_size": "750x100",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDk0OA%3D%3D.html?tid=4948"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3207",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26942",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/21/10/67eff7e3acd1b8947f4112ed64b9908c.jpg@!water",
+            "img_size": "375x660",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/232560-19737-z.html"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "27043",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/20/6d914ef29fd7c6a49be36d2515a426d3.png@!water",
+            "img_size": "375x660",
+            "target": {}
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3208",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26944",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/0dffc2e13bec993a02b536a5cedb04c3.jpg@!water",
+          "img_size": "750x100",
+          "target": {
+            "mode": "web",
+            "param": "http://sale.epet.com/m/mould/activity/ztNDk0OQ%3D%3D.html?tid=4949"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3209",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26945",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/3dec59ddfe528f1a61f6e81e9b596fcc.jpg@!water",
+            "img_size": "375x713",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/226394-19738-z.html"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26946",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/1f7d42c6ed285ce6f0fa7a08e009149c.jpg@!water",
+            "img_size": "375x713",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/goods/232210-19738-z.html"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3210",
+      "is_show": 1,
+      "type": "17",
+      "is_dynamic": "0",
+      "type_name": "单视频模板",
+      "value": {
+        "first_img": {
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/17/a615cab7d108cca7a3257a553beadefa.jpg",
+          "img_size": "750x470",
+          "target": {}
+        },
+        "video": {
+          "url": "http://player.epetbar.com/39c2d1c7303f42f6af6a7896a251f49f/364ced9941a54354a9526a4ec90ab35e-5287d2089db37e62345123a1be272f8b.mp4",
+          "video_size": "750x470"
+        }
+      }
+    },
+    {
+      "index": "3211",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26964",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/17/8cdca6e9a41217e6369db357a37a1b87.jpg@!water",
+          "img_size": "750x296",
+          "target": {
+            "mode": "web",
+            "param": "https://sale.epet.com/m/mould/fashion/detail.html?id=133"
+          }
+        }
+      ]
+    },
+    {
+      "index": "3212",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26952",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/edfa245b5f6d6be9f77842c49d837fb9.jpg@!water",
+            "img_size": "389x449",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/group/v226/main.html?pet_type=dog&fw=0"
+            }
+          },
+          {
+            "advid": "26953",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/1d4a6de2764aeea0c6f15ba3d871317a.jpg@!water",
+            "img_size": "389x259",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/group/v226/main.html?pet_type=dog&fw=0"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26951",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/9287d4348daf658d9e3561841d240be2.jpg@!water",
+            "img_size": "361x449",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/main.html?menu_param=121&is_single=1&pet_type=dog&fw=0"
+            }
+          },
+          {
+            "advid": "26954",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/114db902c4aee3711f585ac7e9718ec2.jpg@!water",
+            "img_size": "361x259",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/union/trials/main.html?pet_type=dog&fw=0"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3213",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26955",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/a1590a7ca541d31440b6437e267b5c69.jpg@!water",
+            "img_size": "308x372",
+            "target": {
+              "mode": "web",
+              "param": "https://sale.epet.com/m/mould/activity/ztNDg3OQ%253D%253D.html?tid=4879"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26956",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/bed8c6c07c097ae431a49df32b7220a8.jpg@!water",
+            "img_size": "442x372",
+            "target": {}
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3245",
+      "is_show": 1,
+      "type": "13",
+      "is_dynamic": "0",
+      "type_name": "通用广告模板",
+      "left_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "center_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "right_image": {
+        "image": "",
+        "img_size": "",
+        "target": {}
+      },
+      "show_line": "0",
+      "content_images": [
+        [
+          {
+            "advid": "26957",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/209978033544f1510853956c0248c136.jpg@!water",
+            "img_size": "308x272",
+            "target": {
+              "mode": "web",
+              "param": "https://sale.epet.com/m/mould/activity/sNDc5OQ%253D%253D.html?tid=4799"
+            }
+          },
+          {
+            "advid": "26960",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/b90c7c5fbbb6ee5078434d9f7fa81e22.jpg@!water",
+            "img_size": "308x272",
+            "target": {
+              "mode": "web",
+              "param": "http://wap.epet.com/activity/cleargoods.html?pet_type=dog&fw=0"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26958",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/74def4e714d926706945a95dbcabb28d.jpg@!water",
+            "img_size": "222x272",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/main.html?menu_param=4&is_single=1&pet_type=dog&fw=0"
+            }
+          },
+          {
+            "advid": "26961",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/ddd968b3e371b563822203466850bab5.jpg@!water",
+            "img_size": "222x272",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/clothmall/main.html?pet_type=dog&fw=0"
+            }
+          }
+        ],
+        [
+          {
+            "advid": "26959",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/e00f746cec8f1509db22529a6fc0b3c9.jpg@!water",
+            "img_size": "220x272",
+            "target": {}
+          },
+          {
+            "advid": "26962",
+            "atid": "0",
+            "image": "https://img2.epetbar.com/nowater/2018-03/20/16/ba7d4bc43c49dc9d1566ee7ba73cbcd9.jpg@!water",
+            "img_size": "220x272",
+            "target": {
+              "mode": "web",
+              "param": "http://wap.epet.com/v2/brandsale.html?pet_type=dog&fw=0"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "index": "3214",
+      "is_show": 1,
+      "type": "1",
+      "is_dynamic": "0",
+      "type_name": "图片轮播广告",
+      "value": [
+        {
+          "advid": "26963",
+          "atid": "0",
+          "image": "https://img2.epetbar.com/nowater/2018-03/20/16/c1406dc530a2cd3adee4ebfaa2c0506f.jpg@!water",
+          "img_size": "750x78",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "index": "3251",
+      "is_show": 1,
+      "type": "8",
+      "is_dynamic": "1",
+      "type_name": "天天惊喜模板"
+    }
+  ]
+}

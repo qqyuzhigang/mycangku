@@ -1,0 +1,364 @@
+body,
+html {
+  min-width: 1120px;
+}
+body #wrap,
+html #wrap {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+body #wrap #head,
+html #wrap #head {
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  position: relative;
+  border-bottom: 2px solid #e5e5e5;
+}
+body #wrap #head.slodDown,
+html #wrap #head.slodDown {
+  top: 0;
+  transform: translateY(0);
+  animation: animt 0.5s;
+}
+@-moz-keyframes animt {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes animt {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-o-keyframes animt {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes animt {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+body #wrap #head .headContainer,
+html #wrap #head .headContainer {
+  height: 100%;
+  width: 85%;
+  padding: 0 15px;
+  margin: 0 74.5px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #wrap #head .headContainer .navbar-right,
+html #wrap #head .headContainer .navbar-right {
+  height: 100%;
+  width: 70%;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #wrap #head .headContainer .navbar-right a,
+html #wrap #head .headContainer .navbar-right a {
+  color: #000;
+  font-weight: bold;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-left,
+html #wrap #head .headContainer .navbar-right .navbar-right-left {
+  margin-left: 50px;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-left .qh:hover,
+html #wrap #head .headContainer .navbar-right .navbar-right-left .qh:hover {
+  color: #ea4942;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-left i,
+html #wrap #head .headContainer .navbar-right .navbar-right-left i {
+  color: #ea4942;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-right,
+html #wrap #head .headContainer .navbar-right .navbar-right-right {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-right .on,
+html #wrap #head .headContainer .navbar-right .navbar-right-right .on {
+  color: #e94840;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-right a:hover,
+html #wrap #head .headContainer .navbar-right .navbar-right-right a:hover {
+  color: #e94840;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-right .dl,
+html #wrap #head .headContainer .navbar-right .navbar-right-right .dl {
+  background: #e94840;
+  border-radius: 10%;
+  color: #fbffff;
+  padding: 5px;
+}
+body #wrap #head .headContainer .navbar-right .navbar-right-right .dl:hover,
+html #wrap #head .headContainer .navbar-right .navbar-right-right .dl:hover {
+  color: #fbffff;
+}
+body #wrap #content,
+html #wrap #content {
+  width: 100%;
+  height: 1000px;
+}
+body #wrap #content .contentLayOut,
+html #wrap #content .contentLayOut {
+  width: 85%;
+  height: 100%;
+  margin: 0px auto;
+}
+body #wrap #content .contentLayOut .contentLeft,
+html #wrap #content .contentLayOut .contentLeft {
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+body #wrap #content .contentLayOut .contentLeft h2,
+html #wrap #content .contentLayOut .contentLeft h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 85px;
+}
+body #wrap #content .contentLayOut .contentLeft .container,
+html #wrap #content .contentLayOut .contentLeft .container {
+  width: 100%;
+  height: 100%;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1,
+html #wrap #content .contentLayOut .contentLeft .container .div1 {
+  width: 100%;
+  display: flex;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div {
+  width: 23%;
+  flex: 1;
+  height: 270px;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  background: #fff;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div:hover,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div:hover {
+  box-shadow: 5px 5px 10px #ccc;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div >img,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div >img {
+  width: 100%;
+  vertical-align: middle;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div .p1,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div .p1 {
+  height: 26px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div .p1 img,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div .p1 img {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-right: 6px;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div .p1 span,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div .p1 span {
+  font-weight: bold;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div .p2,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div .p2 {
+  height: 26px;
+  line-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #wrap #content .contentLayOut .contentLeft .container .div1 div .p2 span,
+html #wrap #content .contentLayOut .contentLeft .container .div1 div .p2 span {
+  font-size: 12px;
+  color: #929292;
+}
+body #wrap #content .contentLayOut .contentRight,
+html #wrap #content .contentLayOut .contentRight {
+  width: 20%;
+  height: 100%;
+  background: #fff;
+  float: left;
+  margin-top: 85px;
+}
+body #wrap #content .contentLayOut .contentRight .contentRight-top,
+html #wrap #content .contentLayOut .contentRight .contentRight-top {
+  width: 100%;
+  height: 600px;
+}
+body #wrap #content .contentLayOut .contentRight .contentRight-top >img,
+html #wrap #content .contentLayOut .contentRight .contentRight-top >img {
+  width: 100%;
+  cursor: pointer;
+}
+body #wrap #content .contentLayOut .contentRight .contentRight-top .erweima,
+html #wrap #content .contentLayOut .contentRight .contentRight-top .erweima {
+  width: 100%;
+  height: 290px;
+  background-image: url("../imgs/tuijianfuwushang_06.jpg");
+  margin-top: 10px;
+}
+body #wrap #content .contentLayOut .contentRight .contentRight-top .erweima img,
+html #wrap #content .contentLayOut .contentRight .contentRight-top .erweima img {
+  width: 130px;
+  margin: 50px 0 0 50px;
+}
+body #wrap #foot,
+html #wrap #foot {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  padding-top: 60px;
+}
+body #wrap #foot .footContainer,
+html #wrap #foot .footContainer {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+body #wrap #foot .footContainer h2,
+html #wrap #foot .footContainer h2 {
+  margin: 20px auto 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+body #wrap #foot .footContainer h2 span,
+html #wrap #foot .footContainer h2 span {
+  font-size: 30px;
+  color: #fb474f;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+body #wrap #foot .footContainer p,
+html #wrap #foot .footContainer p {
+  font-size: 22px;
+  color: #3d3838;
+  text-align: center;
+}
+body #wrap #foot .footContainer .footDiv1,
+html #wrap #foot .footContainer .footDiv1 {
+  text-align: center;
+  padding-top: 20px;
+  height: 66px;
+  font-size: 18px;
+}
+body #wrap #foot .footContainer .footDiv1 span,
+html #wrap #foot .footContainer .footDiv1 span {
+  color: #1d1515;
+  vertical-align: top;
+  margin-right: 10px;
+}
+body #wrap #foot .footContainer .footDiv1 span img,
+html #wrap #foot .footContainer .footDiv1 span img {
+  margin-right: 10px;
+}
+body #wrap #foot .footContainer .footDiv2,
+html #wrap #foot .footContainer .footDiv2 {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+body #wrap #foot .footContainer .footDiv2 .footDivrm,
+html #wrap #foot .footContainer .footDiv2 .footDivrm {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  width: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In {
+  height: 93px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In1,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In1 {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In1 span,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In1 span {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In2,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In2 {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In2 span,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In2 span {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In3,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In3 {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In3 span,
+html #wrap #foot .footContainer .footDiv2 .footDiv2In .footDiv2In3 span {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #wrap #foot .footContainer .footBottomp,
+html #wrap #foot .footContainer .footBottomp {
+  width: 100%;
+  color: #898989;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 14px;
+}

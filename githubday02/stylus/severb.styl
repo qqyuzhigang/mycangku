@@ -1,0 +1,250 @@
+body,html
+  min-width 1120px
+
+  #wrap
+    height 100%
+    width 100%
+    background #fff
+
+    #head
+      width 100%
+      height 70px
+      background #fff
+      position relative
+      border-bottom 2px solid #E5E5E5
+      &.slodDown
+        top 0
+        transform translateY(0)
+        animation animt 0.5s
+        @keyframes animt{
+          0% {
+            transform translateY(-100%)
+          }
+          100%{
+            transform translateY(0)
+          }
+
+        }
+      .headContainer
+        height 100%
+        width 85%
+        padding 0 15px
+        margin 0 74.5px
+        background #fff
+        display flex
+        justify-content space-between
+        align-items center
+        .navbar-right
+          height 100%
+          width 70%
+          width 1170px
+          display flex
+          justify-content space-between
+          align-items center
+          a
+            color #000
+            font-weight bold
+          .navbar-right-left
+            margin-left 50px
+            .qh:hover
+              color #EA4942
+            i
+              color #EA4942
+
+          .navbar-right-right
+            height 100%
+            width 70%
+            display flex
+            justify-content space-around
+            align-items center
+            .on
+              color #E94840
+            a:hover
+              color #E94840
+            .dl
+              background #E94840
+              border-radius 10%
+              color #FBFFFF
+              padding 5px
+              &:hover
+                color #FBFFFF
+    #content
+      width 100%
+      height 1000px
+
+      .contentLayOut
+        width 85%
+        height 100%
+        margin 0px auto
+        .contentLeft
+          width 80%
+          height 100%
+
+          float left
+          h2
+            font-size 18px
+            font-weight bold
+            line-height 85px
+          .container
+            width 100%
+            height 100%
+            .div1
+              width 100%
+              display flex
+              div
+                width 23%
+                flex 1
+                height 270px
+                border 1px solid #eaeaea
+                padding 10px
+                margin 0 10px 10px 0
+                cursor pointer
+                background #fff
+                &:hover
+                  box-shadow 5px 5px 10px #ccc
+                >img
+                  width 100%
+                  vertical-align middle
+                .p1
+                  height 26px
+                  line-height 26px
+                  margin-top 15px
+
+                  img
+                    vertical-align middle
+                    margin-bottom 5px
+                    margin-right 6px
+                  span
+                    font-weight bold
+                .p2
+                  height 26px
+                  line-height 26px
+                  display flex
+                  justify-content space-between
+                  align-items center
+                  span
+                    font-size 12px
+                    color #929292
+
+
+        .contentRight
+          width 20%
+          height 100%
+          background #fff
+          float left
+          margin-top 85px
+          .contentRight-top
+            width 100%
+            height 600px
+            >img
+              width 100%
+              cursor pointer
+            .erweima
+              width 100%
+              height 290px
+              background-image url("../imgs/tuijianfuwushang_06.jpg")
+              margin-top 10px
+              img
+                width 130px
+                margin 50px 0 0 50px
+
+    #foot
+      width 100%
+      height 300px
+      background #fff
+      padding-top 60px
+      .footContainer
+        width 85%
+        height 100%
+        margin 0 auto
+        h2
+          margin 20px auto 10px
+          font-size 30px
+          font-weight bold
+          font-family "微软雅黑"
+          text-align center
+
+          span
+            font-size 30px
+            color #fb474f
+            font-family "微软雅黑"
+            font-weight bold
+        p
+          font-size 22px
+          color #3d3838
+          text-align center
+        .footDiv1
+          text-align center
+          padding-top 20px
+          height 66px
+          font-size 18px
+          span
+            color #1d1515
+            vertical-align top
+            margin-right 10px
+            img
+              margin-right 10px
+        .footDiv2
+          width 100%
+          height 120px
+          display flex
+          justify-content center
+          align-items flex-start
+          padding 0px
+
+          .footDivrm
+            display flex
+            font-size 18px
+            font-weight 700
+            width 10%
+            text-align center
+            margin-top 10px
+
+          .footDiv2In
+            height 93px
+            width 90%
+            display flex
+            align-items center
+            justify-content center
+            flex-direction column
+            .footDiv2In1
+              width 100%
+              flex 1
+              display flex
+              justify-content space-around
+              align-items center
+              span
+                width 8%
+                display flex
+                align-items center
+                justify-content center
+            .footDiv2In2
+              width 100%
+              flex 1
+              display flex
+              justify-content space-around
+              align-items center
+              span
+                width 8%
+                display flex
+                align-items center
+                justify-content center
+
+            .footDiv2In3
+              width 100%
+              flex 1
+              display flex
+              justify-content space-around
+              align-items center
+              span
+                width 8%
+                display flex
+                align-items center
+                justify-content center
+        .footBottomp
+          width 100%
+          color #898989
+          height 40px
+          line-height 40px
+          text-align left
+          font-size 14px
